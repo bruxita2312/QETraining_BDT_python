@@ -12,3 +12,4 @@ Feature: INEI work
 
     Scenario: Search by habitants number
       Given: The actual number of habitants is 250.000
+

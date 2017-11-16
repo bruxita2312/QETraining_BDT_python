@@ -12,3 +12,17 @@ def step_impl(context,country):
 def step_impl(context,nro):
     a_nro=250.000
     #raise NotImplementedError(u'STEP: The actual number of habitants is (nro:n)')
+
+
+# 15-11-2017
+# nested step
+@given(u'& customer (amount)')
+def step_impl(context, amount):
+    context.execute_steps('''
+    Given I already registered %s
+    When I enter my PIN %s
+    
+    ''')
+
+
+
