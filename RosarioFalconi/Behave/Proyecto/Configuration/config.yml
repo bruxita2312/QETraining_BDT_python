@@ -1,0 +1,6 @@
+app:
+  host: https://www.pivotaltracker.com/services
+  version: /v5/
+usrs:
+  admin_token: 58602711c4b125a7d3dc8670e06d8f07
+  usr_token: 2a6118f239fa9083cf56206082f3eefe
